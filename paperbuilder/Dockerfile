@@ -18,7 +18,7 @@ RUN apk --no-cache add perl wget xz tar && \
 	tlmgr install collection-latex collection-latexextra && \
 	cd && rm -rf /tmp/install-tl-unx
 
-RUN tlmgr install bytefield algorithms algorithm2e ec fontawesome epstopdf latexmk ulem && mkdir /workdir && cd /workdir
+RUN tlmgr install bytefield algorithms algorithm2e ec fontawesome epstopdf latexmk collection-bibtexextra collection-plaingeneric collection-fontsrecommended && mkdir /workdir && cd /workdir
 
 ENV PATH="/usr/local/texlive/2017/bin/x86_64-linux:${PATH}"
 
