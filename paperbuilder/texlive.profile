@@ -16,7 +16,7 @@ option_desktop_integration 1
 option_doc 0
 option_file_assocs 1
 option_fmt 1
-option_letter 0
+option_letter 1
 option_menu_integration 1
 option_path 1
 option_post_code 1
