@@ -1,4 +1,4 @@
-selected_scheme scheme-minimal
+selected_scheme scheme-full
 TEXDIR /usr/local/texlive/2017
 TEXMFCONFIG ~/.texlive2017/texmf-config
 TEXMFHOME ~/texmf
