@@ -1,7 +1,7 @@
 FROM mhart/alpine-node:10.8
 
-RUN apk add --no-cache wget git make gnuplot ghostscript fontconfig ca-certificates openssl bash python3 moreutils
-
+RUN apk add --no-cache wget git make gnuplot ghostscript fontconfig ca-certificates openssl bash python3
+RUN apk add moreutils --update-cache --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ --allow-untrusted
 RUN mkdir /tmp/install-tl-unx
 
 WORKDIR /tmp/install-tl-unx
