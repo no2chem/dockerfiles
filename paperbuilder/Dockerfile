@@ -1,6 +1,6 @@
-FROM mhart/alpine-node:9.5.0
+FROM mhart/alpine-node:10.8
 
-RUN apk add --no-cache wget git make gnuplot ghostscript fontconfig ca-certificates openssl
+RUN apk add --no-cache wget git make gnuplot ghostscript fontconfig ca-certificates openssl bash python3
 
 RUN mkdir /tmp/install-tl-unx
 
