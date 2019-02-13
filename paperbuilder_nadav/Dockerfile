@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:11.9
+FROM alpine:3.9
 
 RUN apk add --no-cache wget git make gnuplot ghostscript fontconfig ca-certificates openssl bash python3 moreutils
 RUN mkdir /tmp/install-tl-unx
